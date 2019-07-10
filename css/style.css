@@ -1,0 +1,596 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&display=swap&subset=cyrillic');
+html{
+	 background:#fdfdfd;
+}
+body{
+ margin:0;
+ padding:0;
+ background:#fdfdfd;
+ font-size:0;
+ width:100%;
+}
+
+.layout{
+  display: flex;
+  justify-content: space-between;
+  margin:0;
+}
+.header_manu{
+	background:#ffeaec;
+	height:54px;
+	padding:0 130px;
+	line-height:54px;
+}
+h3{
+	margin:0;
+	padding:0;
+}
+.manu_logo{
+	font-family: 'Dancing Script', cursive;
+	font-size:32px;
+	font-weight:bold;
+	
+}
+
+.manu_icon{
+	width:35px;
+	height:35px;
+	margin:8px 7px 0 7px;
+	border-radius:50%;
+}
+.manu_icon:hover{
+	box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+}
+.manu_phone{
+	text-decoration:none;
+	font-family:"Open Sans";
+	font-size:14px;
+	margin-right:15px;
+	color:#000;
+}
+.manu_phone:hover{
+	text-decoration:underline;
+}
+.header_container{
+	height:600px;
+	background:url(img/background-main.png) no-repeat top left;
+	padding:96px 150px 0 0;
+	box-sizing:border-box;
+	margin-bottom: 20px;
+}
+.header_container_about{
+	font-family: 'Caveat', cursive;
+	font-family:'Philosopher', sans-serif;
+	font-size:68px;
+	text-align:right;
+	margin:0;
+}
+.header_container_about__top{
+	letter-spacing:5px;
+}
+.and{
+	color:#942229;
+}
+.header_container_about__city{
+	font-size:45px;
+	color:#a96b70;
+}
+.cta{
+	border-radius: 25px;
+	background:#73283a;
+	color:#fff;
+	border:none;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+	font-size:25px;
+	font-family:'Philosopher', sans-serif;
+	height:49px;
+}
+.header_container_about_btn-cta{
+	width: 340px;
+    margin: 80px 0 0 0;
+	float:right;
+}
+.cta:hover{
+	background:#fdfdfd;
+	border:2px solid #73283a;
+	color:#73283a;
+	
+}
+
+
+.connection{
+	display:none;
+	z-index:999;
+	position:fixed;
+	top:37%;
+	left:39%;
+	width:300px;
+	height:220px;
+	background:#ffeaec;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+	border-radius: 25px;
+	padding:0 20px 20px 20px;
+	
+}
+.close-icon{
+	width:20px;
+	height:20px;
+	border-radius:25%;
+	margin:10px 0 0 95%;
+	
+}
+.close-icon:hover{
+	box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+	
+}
+
+.manu_icon_connection{
+	width:70px;
+	height:70px;
+}
+
+.manu_logo_connection{
+	font-size:40px;
+	text-align:center;
+}
+
+.manu_phone_connection{
+	font-size:25px;
+	display:block;
+	margin:15px 0;
+	text-align:center;
+}
+
+.connection_cosial-networks{
+	text-align:center;
+}
+
+
+.watch-instagram{
+	height:62px;
+	line-height:0;
+	background:#f4f1f1;
+	font-size:24px;
+	font-family: 'Caveat', cursive;
+	display:flex;
+	justify-content:center;
+	margin-top: 8px;
+}
+.watch-instagram_link_txt{
+	text-decoration:none;
+	color:#000;
+}
+.watch-instagram_icon{
+	width:47px;
+	height:47px;
+	margin: 8px 0 0 8px;
+	}
+.about-julia{
+	background:#ffeaec;
+	box-sizing:border-box;
+	height:512px;
+	padding:25px 138px;
+	display:flex;
+   justify-content: space-between;
+   margin:0;
+}
+.about-julia_img{
+	margin:0 0 0 20px;
+}
+.about-julia_txt{
+	width:462px;
+	height:405px;
+	box-sizing:border-box;
+	padding:35px 35px;
+	font-family: 'Caveat', cursive;
+	font-size:23px;
+	background:#fff;
+	border-radius:5px;
+	margin:26px 20px 0 0;
+}
+.about-julia_speach{
+	margin:0;
+}
+.about-julia_name{
+	font-weight:bold;
+}
+.prises{
+	height:570px;
+	background:url(img/background-praices.png);
+	font-size:20px;
+	padding-top:85px;
+}
+
+.prises_table-row__light{
+	background:#ffeaec;
+	color:#000;
+}
+.prises_table-row__dark{
+	background:#d1b5b8;
+	color:#FFF;
+}
+.prises_services{
+	font-size:30px;
+	font-family: 'Philosopher', sans-serif;
+	text-align:center;
+	margin:0;
+}
+.prises_table{
+	border-spacing:20px;
+	margin:0 auto;
+	
+	font-family: 'Philosopher', sans-serif;
+}
+
+td{
+	height:38px;
+	
+	box-sizing:border-box;
+	border-radius:3px;
+	padding: 2% 4%;
+}
+
+.left_row{
+	width:300px;
+}
+.right_row{
+	width:140px;
+	text-align:center;
+}
+.prises_container_about_btn-cta{
+	width:28%;
+	margin:15px 36%;
+}
+
+
+
+footer{
+	height:44px;
+	background:#eccccf;
+	font-size:10px;
+	padding: 10px 0 0 15px;
+	box-sizing:border-box;
+}
+
+
+
+
+.slider-block{
+	width:940px;
+	margin:0 auto;
+	
+}
+
+
+.block {
+	width: 500px;
+	height: 500px;
+	background: blue;
+	margin: 300px;
+}
+
+.block {
+	margin-bottom: 1000px;
+}
+
+.animated {
+	opacity: 0;
+}
+
+.header {
+	padding: 125px 0;
+	background-color: #000;
+}
+.nav {
+	
+	position: -webkit-sticky;
+}
+.header, .nav {
+	text-align: center;
+	color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  width: 80%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+.owl-item{
+	width:305px;
+	height: 408px;
+}
+.owl-prev,.owl-next{
+	background:#ffeaec !important;
+	line-height:30px;
+	
+	font-size:30px !important;
+	font-weight:bold;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	border-radius:50% !important;
+	padding: 0 0  10px 0  !important;
+	box-shadow: 0 0 9px rgba(0,0,0, 0.4);
+	
+}
+.owl-prev:hover{
+	background:#d1b5b8!important;
+}
+.owl-next:hover{
+	background:#d1b5b8!important;
+}
+
+.item{
+	background: grey;
+	width:300px;
+	height: 410px;
+	font-size:20px;
+}
+.owl-dots{
+	display:none;
+}
+
+@media screen and (max-width: 1235px){
+	.about-julia{
+	padding:30px 80px;
+
+	}
+}
+@media screen and (max-width: 1150px){
+	.header_manu{
+	padding:0 30px;
+	}
+	.header_container{
+	height:600px;
+	padding:96px 50px 0 0;
+    background-position: -80px 0;
+	}
+	.about-julia{
+	padding:30px 25px;
+	
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.about-julia{
+		padding:12px 5px;
+		height: 485px;
+	}
+	.connection {
+		    left: 32%;
+	}
+}
+@media screen and (max-width: 950px){
+	.slider-block {
+    width: 75%;
+   
+}
+	.item{
+		width: auto;
+		height:auto;
+	}
+	.about-julia {
+    padding: 0; 
+	height: 20%
+    }
+	.about-julia_img {
+    margin: 0 0 0 8px;
+	width: auto;
+		height:auto;
+	}
+	.about-julia_txt {
+	margin: 26px 8px 0 0;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.about-julia_txt {
+	padding: 12px 12px;
+    font-size: 22px;
+	}
+	.connection {
+    left: 29%;
+	}
+}
+
+
+@media screen and (max-width: 750px){
+	.header_container{
+	background:url(img/background-main2.png);
+	background-position: -244px 0;
+	padding: 105px 32px 0 0;
+	height:550px;
+	
+}
+.header_container_about__top {
+    letter-spacing: 3px;
+}
+
+.header_container_about {
+     font-size: 58px;  
+	 line-height: 68px;
+}
+	.header_container_about__city {
+    font-size: 45px;
+    color: #73283a;
+}
+	.header_container_about_btn-cta {
+        margin: 80px 0 0 0;
+		width: 304px;
+    }
+	
+	.about-julia{
+		padding:25px 5px;
+		display:flex;
+		flex-direction:column-reverse;
+		height:890px;
+	}
+	.slider-block{
+		width:100%;
+		margin:0 auto;
+	
+   }
+   .about-julia_img{
+		width:417px;
+		height:440px;
+	    margin:15px auto;
+    }
+	.about-julia_txt{
+		margin:0 auto;
+		height:auto;
+		padding: 20px 20px;
+		width: 450px;
+	}
+	.prises_container_about_btn-cta {
+    width: 50%;
+    margin: 15px 25%;
+    }
+	.item {
+		width:auto;
+		height:auto;
+    }
+	.owl-item{
+		height:auto;
+	}
+	.connection {
+    left: 26%;
+}
+}
+
+@media screen and (max-width: 600px){
+.item {
+    width: 86%;
+    height: auto;
+    margin: 10px 7%;
+    }
+	.manu_icon-block{
+	display:none;
+	}
+	.connection {
+    left: 19%;
+	}
+}	
+
+
+@media screen and (max-width: 480px){
+	.header_manu {
+		padding: 0 10px;
+	}
+	.header_container_about {
+    font-size: 49px;
+    line-height: 65px;
+    }
+	.header_container_about__city {
+    font-size: 40px;
+    }
+	.item {
+    width: 86%;
+    height: auto;
+    margin: 10px 7%;
+    }
+.manu_logo{
+	font-size: 28px
+  }
+  .about-julia{
+	  height: auto
+  }
+      
+  .about-julia_txt {
+    width: 94%;
+}
+
+.about-julia_img {
+    width: 90%;
+    height: auto;
+    
+}
+.prises_container_about_btn-cta {
+    width: 60%;
+    margin: 15px 20%;
+	}
+
+
+td{
+    height: 38px;
+    padding: 2% 4%;
+	}
+
+.right_row{
+	text-align:center;
+	}
+
+.prises_container_about_btn-cta {
+    width: 60%;
+    margin: 15px 20% 30px;
+	}
+	.connection {
+    left: 12%;
+}
+}
+
+@media screen and (max-width:  429px){
+	.prises {
+    height: auto;
+	}
+	.header_container_about_btn-cta {
+    
+    width: 253px;
+}
+.connection {
+    left: 9%;
+}
+.prises{
+padding-top: 35px;}
+}
+
+@media screen and (max-width:  380px){
+	.header_container_about {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .header_container_about__city {
+    font-size: 32px;
+}
+.about-julia_txt {
+    
+    font-size: 18px;
+}
+.prises_container_about_btn-cta {
+    width: 70%;
+    margin: 15px 15% 30px;
+  }
+  .connection {
+    left: 5%;
+}
+}
+
+@media screen and (max-width: 320px){
+.header_container {
+padding: 105px 13px 0 0;
+}
+    .connection {
+    left: 5%;
+	width: auto;
+}  
+	
+}
+/*
+@media screen and (max-width: 600px){
+	.about-julia{
+		display:flex;
+		flex-direction:column-reverse;
+		height:812px;
+	}
+	.about-julia_img{
+		width:1417px;
+		height:440px;
+	    margin:0 0 0 20px;
+    }
+}
+*/
